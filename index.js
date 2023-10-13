@@ -8,12 +8,6 @@ const userRouter = require("./routes/userRoutes")
 
 app.use(express.json())
 
-const corsOptions = {
-    origin: 'http://localhost:3000',
-};
-
-app.use(cors(corsOptions));
-
 
 const connection = async () => {
     try {
@@ -22,6 +16,8 @@ const connection = async () => {
         console.log(error);
     }
 }
+
+app.use(cors());
 
 app.use("/users", userRouter)
 
