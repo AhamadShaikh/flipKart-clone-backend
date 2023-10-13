@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "grocery": []
+        },
+        {
+            "mobiles": []
+        },
+        {
+            "fashion": []
+        },
+        {
+            "electronics": []
+        },
+        {
+            "travel": []
+        }
+    ]
+}
